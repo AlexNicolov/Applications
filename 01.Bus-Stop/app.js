@@ -7,7 +7,7 @@ async function getInfo() {
     const busList = document.getElementById("buses");
     
     busList.innerHTML = "";
-    stopId.value = "";
+    // stopId.value = "";
     try{
 
         const response = await fetch(url);
